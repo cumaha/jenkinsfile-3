@@ -1,5 +1,5 @@
 stage 'Pre-Checks'
-node('gljumper') {
+node('linux_node') {
    echo "Retrieve builds from gljumper"
    sh 'hostname'
    sh 'uname -a'
